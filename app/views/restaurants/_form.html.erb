@@ -1,0 +1,11 @@
+<!-- New Record: post 'restaurants' -->
+<!-- Existing Record: patch 'restaurants/:id' -->
+<%= form_for(@restaurant) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :address %>
+  <%= f.text_field :address %>
+
+  <%= f.submit %>
+<% end %>
